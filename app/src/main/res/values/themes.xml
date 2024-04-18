@@ -6,4 +6,8 @@
     </style>
 
     <style name="Theme.AvanzoTest" parent="Base.Theme.AvanzoTest" />
+    <style name="circleImageview">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">50%</item>
+    </style>
 </resources>

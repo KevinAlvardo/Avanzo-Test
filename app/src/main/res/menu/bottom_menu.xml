@@ -3,25 +3,25 @@
     xmlns:app="http://schemas.android.com/apk/res-auto">
     <item
         android:id="@+id/home"
-        android:title="Home"
+        android:title="inicio"
         android:icon="@drawable/bottom_btn1"
         app:cnb_iconColor="@color/white"
         app:cnb_backgroundColor="@color/orange"/>
     <item
         android:id="@+id/Board"
-        android:title="Board"
+        android:title="Ranking"
         android:icon="@drawable/bottom_btn2"
         app:cnb_iconColor="@color/white"
         app:cnb_backgroundColor="@color/orange"/>
     <item
         android:id="@+id/favorites"
-        android:title="favorites"
+        android:title="favoritos"
         android:icon="@drawable/bottom_btn3"
         app:cnb_iconColor="@color/white"
         app:cnb_backgroundColor="@color/orange"/>
     <item
         android:id="@+id/profile"
-        android:title="profile"
+        android:title="Perfil"
         android:icon="@drawable/bottom_btn4"
         app:cnb_iconColor="@color/white"
         app:cnb_backgroundColor="@color/orange"/>
