@@ -1,9 +1,10 @@
-package com.moviles.avanzotest
+package com.moviles.avanzotest.Activity
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.Window
 import androidx.core.content.ContextCompat
+import com.moviles.avanzotest.R
 import com.moviles.avanzotest.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
@@ -15,6 +16,6 @@ class MainActivity : AppCompatActivity() {
         setContentView(binding.root)
 
         val window:Window=this@MainActivity.window
-        window.statusBarColor=ContextCompat.getColor(this@MainActivity,R.color.grey)
+        window.statusBarColor=ContextCompat.getColor(this@MainActivity, R.color.grey)
     }
 }
